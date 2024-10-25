@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/font-awesome.min.css'; // Adjust the import path as necessary
-import './styles/icofont.css'; // Adjust the import path as necessary
+// import './styles/font-awesome.min.css'; // Adjust the import path as necessary
+// import './styles/icofont.css'; // Adjust the import path as necessary
 
 class Schedule extends React.Component {
   render() {

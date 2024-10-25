@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Newsletter.css';
+
 
 class Newsletter extends Component {
   render() {
