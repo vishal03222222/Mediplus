@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './WhyChoose.css';
+// import './WhyChoose.css';
 
 class WhyChoose extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Features.css'; // Assuming CSS is in a single file
+
 
 class Features extends Component {
   render() {

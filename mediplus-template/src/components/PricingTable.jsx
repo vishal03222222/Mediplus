@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './PricingTable.css';
+
 
 class PricingTable extends Component {
   render() {

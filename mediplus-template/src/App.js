@@ -13,6 +13,8 @@ import Appointment from './components/Appointment';
 import Clients from './components/clients';
 import Blog from './components/Blog-Area';
 import Footers from './components/Footer';
+import PricingTable from './components/PricingTable';
+import Services from './components/Service';
 
 
 

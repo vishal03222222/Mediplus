@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Appointment.css';
+// import './Appointment.css';
 
 class Appointment extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './FunFacts.css';
+// import './FunFacts.css';
 
 class FunFacts extends Component {
   render() {

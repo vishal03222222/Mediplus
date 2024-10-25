@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './CallAction.css'; // Assuming CSS is in a single file
+//import './CallAction.css'; // Assuming CSS is in a single file
 
 class CallAction extends Component {
   render() {
