@@ -40,7 +40,7 @@ class WhyChoose extends Component {
               </div>
             </div>
             <div className="col-lg-6 col-12">
-              <div className="choose-right">
+              <div className="choose-right" >
                 <div className="video-image">
                   <div className="promo-video">
                     <div className="waves-block">
