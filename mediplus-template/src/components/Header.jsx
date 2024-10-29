@@ -1,7 +1,7 @@
 import React from 'react';
 // ??import './styles/font-awesome.min.css'; // Adjust the import path as necessary
 // import './styles/icofont.css'; // Adjust the import path as necessary
-
+import hcontent from './hcontent.json'
 class Header extends React.Component {
   render() {
     return (
@@ -40,7 +40,17 @@ class Header extends React.Component {
                   <div className="main-menu">
                     <nav className="navigation">
                       <ul className="nav menu">
-                        <li className="active">
+                        {hcontent.map((value)=>{
+                          return<li className="active">
+                            <a href="#">{value.name} <i className="icofont-rounded-down"></i></a>
+                            <ul className="dropdown">
+                              <li><a href="index.html">{value.prop}</a></li>
+                            </ul>
+                          </li>
+
+                          
+                        })}
+                        {/* <li className="active">
                           <a href="#">Home <i className="icofont-rounded-down"></i></a>
                           <ul className="dropdown">
                             <li><a href="index.html">Home Page 1</a></li>
@@ -57,10 +67,10 @@ class Header extends React.Component {
                         <li>
                           <a href="#">Blogs <i className="icofont-rounded-down"></i></a>
                           <ul className="dropdown">
-                            <li><a href="blog-single.html">Blog Details</a></li>
+                            <li><a href="blog-single.html">Blog Details</a></li> 
                           </ul>
                         </li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>*/}
                       </ul>
                     </nav>
                   </div>
