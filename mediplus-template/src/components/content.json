@@ -1,6 +1,19 @@
 [
     {
-        "name":"General Treatment",
-        "para":""
-    }
+        "name":"General Treatment"   },
+    {
+        "name":"Teeth Whitening"    },
+    {
+        "name":"Heart Surgery"
+        },
+    {
+        "name":"Ear Treatment"
+          },
+    {
+        "name":"Vision Problems"
+         },
+    {
+        "name":"Blood Transfusion"
+         }
+
 ]

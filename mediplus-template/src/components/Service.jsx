@@ -18,6 +18,17 @@ class Services extends Component {
             </div>
           </div>
           <div className="row">
+            {content.map((val)=>{
+              <div className="col-lg-4 col-md-6 col-12">
+              <div className="single-service">
+                <i className="icofont icofont-prescription"></i>
+                <h4><a href="service-details.html">{val.name}</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet.</p>
+              </div>
+            </div>
+
+            })}
+            
             {/* <div className="col-lg-4 col-md-6 col-12">
               <div className="single-service">
                 <i className="icofont icofont-prescription"></i>
