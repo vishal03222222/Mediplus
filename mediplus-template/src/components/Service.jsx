@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-// import './Services.css';
+import content from './content.json'
+
 
 class Services extends Component {
   render() {
+    console.log(content)
     return (
       <section className="services section">
         <div className="container">
