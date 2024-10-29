@@ -1,0 +1,26 @@
+[
+    {
+        "name":"General Treatment",
+        "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet."
+    },
+    {
+        "name":"Teeth Whitening",
+        "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet."
+    },
+    {
+        "name":"Heart Surgery",
+        "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet."
+    },
+    {
+        "name":"Ear Treatment",
+        "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet."
+    },
+    {
+        "name":"Vision Problems",
+        "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet."
+    },
+    {
+        "name":"Blood Transfusion",
+        "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet."
+    }
+]

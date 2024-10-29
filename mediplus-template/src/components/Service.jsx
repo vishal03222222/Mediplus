@@ -16,7 +16,7 @@ class Services extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-12">
+            {/* <div className="col-lg-4 col-md-6 col-12">
               <div className="single-service">
                 <i className="icofont icofont-prescription"></i>
                 <h4><a href="service-details.html">General Treatment</a></h4>
@@ -57,7 +57,7 @@ class Services extends Component {
                 <h4><a href="service-details.html">Blood Transfusion</a></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet.</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
