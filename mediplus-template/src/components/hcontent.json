@@ -1,28 +1,26 @@
 [
     {
-        "name":"HOME" ,
-    "prop":"HOME PAGE"  },
+        "name": "HOME",
+        "prop": "HOME PAGE"
+    },
     {
-        "name":"DOCTORS" ,
-    "prop":"DOCTORS"   },
+        "name": "DOCTORS",
+        "prop": "DOCTORS"
+    },
     {
-        "name":"SERVICES",
-        "prop":"SERVICES"
-        
-        },
+        "name": "SERVICES",
+        "prop": "SERVICES"
+    },
     {
-        "name":"PAGES",
-        "prop":"PAGES"
-          },
+        "name": "PAGES",
+        "prop": "PAGES"
+    },
     {
-        "name":"BLOGS",
-        "prop":"BLOGS"
-
-         },
+        "name": "BLOGS",
+        "prop": "BLOGS"
+    },
     {
-        "name":"CONTACT US",
-         "prop":"1234567890"
-        
-         }
-
+        "name": "CONTACT US",
+        "prop": "1234567890"
+    }
 ]
