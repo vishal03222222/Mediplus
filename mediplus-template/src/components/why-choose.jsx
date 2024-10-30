@@ -39,7 +39,20 @@ class WhyChoose extends Component {
                 </div>
               </div>
             </div>
-          
+            <div className="col-lg-6 col-12">
+              <div className="choose-right" >
+                <div className="video-image">
+                  <div className="promo-video">
+                    <div className="waves-block">
+                      <div className="waves wave-1"></div>
+                      <div className="waves wave-2"></div>
+                      <div className="waves wave-3"></div>
+                    </div>
+                  </div>
+                  <a href="https://www.youtube.com/watch?v=RFVXy6CRVR4" className="video video-popup mfp-iframe"><i className="fa fa-play"></i></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
