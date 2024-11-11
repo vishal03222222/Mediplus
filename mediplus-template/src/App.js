@@ -14,6 +14,7 @@ import Slider from './components/Slider'
 import Newsletter from './components/Newsletter'
 import Footers from './components/Footer'
 import Features from './components/FeautesSection'
+ import './App.css'
 
 const App = () => {
   return (

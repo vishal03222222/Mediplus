@@ -1,6 +1,6 @@
 import React from 'react';
 // ??import './styles/font-awesome.min.css'; // Adjust the import path as necessary
-// import './styles/icofont.css'; // Adjust the import path as necessary
+//import  'icofont.css'; // Adjust the import path as necessary
 import hcontent from './hcontent.json'
 class Header extends React.Component {
   render() {
@@ -44,33 +44,13 @@ class Header extends React.Component {
                           return<li className="active">
                             <a href="#">{value.name} <i className="icofont-rounded-down"></i></a>
                             <ul className="dropdown">
-                              <li><a href="index.html">{value.prop}</a></li>
+                              {/* //<li><a href="index.html">{value.prop}</a></li> */}
                             </ul>
                           </li>
 
                           
                         })}
-                        {/* <li className="active">
-                          <a href="#">Home <i className="icofont-rounded-down"></i></a>
-                          <ul className="dropdown">
-                            <li><a href="index.html">Home Page 1</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Doctors</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li>
-                          <a href="#">Pages <i className="icofont-rounded-down"></i></a>
-                          <ul className="dropdown">
-                            <li><a href="404.html">404 Error</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#">Blogs <i className="icofont-rounded-down"></i></a>
-                          <ul className="dropdown">
-                            <li><a href="blog-single.html">Blog Details</a></li> 
-                          </ul>
-                        </li>
-                        <li><a href="contact.html">Contact Us</a></li>*/}
+                        
                       </ul>
                     </nav>
                   </div>
