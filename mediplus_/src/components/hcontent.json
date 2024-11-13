@@ -1,0 +1,26 @@
+[
+    {
+        "name": "HOME",
+        "prop": "HOME PAGE"
+    },
+    {
+        "name": "DOCTORS",
+        "prop": "DOCTORS"
+    },
+    {
+        "name": "SERVICES",
+        "prop": "SERVICES"
+    },
+    {
+        "name": "PAGES",
+        "prop": "PAGES"
+    },
+    {
+        "name": "BLOGS",
+        "prop": "BLOGS"
+    },
+    {
+        "name": "CONTACT US",
+        "prop": "1234567890"
+    }
+]
