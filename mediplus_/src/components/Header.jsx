@@ -1,6 +1,7 @@
 import React from 'react';
 // ??import './styles/font-awesome.min.css'; // Adjust the import path as necessary
 //import  'icofont.css'; // Adjust the import path as necessary
+import { Link } from 'react-router-dom';
 import hcontent from './hcontent.json'
 class Header extends React.Component {
   render() {
@@ -42,7 +43,8 @@ class Header extends React.Component {
                       <ul className="nav menu">
                         {hcontent.map((value)=>{
                           return<li className="active">
-                            <a href="#">{value.name} <i className="icofont-rounded-down"></i></a>
+                            
+                            <Link to={value.link}>{value.name}</Link>
                             <ul className="dropdown">
                               {/* //<li><a href="index.html">{value.prop}</a></li> */}
                             </ul>

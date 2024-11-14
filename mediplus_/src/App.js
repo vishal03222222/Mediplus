@@ -15,10 +15,18 @@ import Newsletter from './components/Newsletter'
 import Footers from './components/Footer'
 import Features from './components/FeautesSection'
  import './App.css'
-
+import {Route ,Routes} from 'react-router-dom'
 const App = () => {
   return (
     <div>
+       <Routes>
+        <Route path='/' element={<Services/>}/>
+      
+        <Route path='/DOCTORS' element={<Services/>}/>
+        <Route path='/PAGES' element={<Services/>}/>
+        <Route path='/BLOGS' element={<Services/>}/>
+        <Route path='/CONTACT' element={<Services/>}/>
+      </Routes>
       <Header/>
       <Slider/>
       <Schedule/>

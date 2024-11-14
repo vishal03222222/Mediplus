@@ -16,9 +16,11 @@ import Footers from './components/Footer'
 import Features from './components/FeautesSection'
  import './App.css'
 
+
 const App = () => {
   return (
     <div>
+      
       <Header/>
       <Slider/>
       <Schedule/>

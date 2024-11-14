@@ -1,26 +1,35 @@
 [
     {
         "name": "HOME",
-        "prop": "HOME PAGE"
+        "prop": "HOME PAGE",
+        "link":"/"
     },
     {
         "name": "DOCTORS",
-        "prop": "DOCTORS"
+        "prop": "DOCTORS",
+        "link":"/DOCTORS"
     },
     {
         "name": "SERVICES",
-        "prop": "SERVICES"
+        "prop": "SERVICES",
+        
+        "link":"/SERVICES"
     },
     {
         "name": "PAGES",
-        "prop": "PAGES"
+        "prop": "PAGES",
+        "link":"/PAGES"
+        
     },
     {
         "name": "BLOGS",
-        "prop": "BLOGS"
+        "prop": "BLOGS",
+        "link":"/BLOGS"
     },
     {
         "name": "CONTACT US",
-        "prop": "1234567890"
+        "prop": "1234567890",
+        "link":"/CONTACT"
+        
     }
 ]
